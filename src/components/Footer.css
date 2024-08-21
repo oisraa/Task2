@@ -1,0 +1,84 @@
+
+footer .container {
+    width: 100% !important; 
+}
+footer.footer-no-gap {
+    margin-top: 0px;
+   
+  }
+  
+  footer .container {
+    margin-top: 150px;
+    background: #1e1e1e !important;
+  
+    
+  }
+  
+  footer p {
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  footer p a {
+    color: #fff;
+    transition: all .3s;
+    position: relative;
+    z-index: 3;
+  }
+  
+  footer p a:hover {
+    opacity: 0.75;
+  }
+  
+  .blockquote-footer {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    color: #6c757d;
+}
+.blockquote-footer::before {
+    content: "— ";
+}
+.card > .card-header + .list-group,
+.card > .list-group + .card-footer {
+    border-top: 0;
+}
+.card-footer {
+    padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    color: var(--bs-card-cap-color);
+    background-color: var(--bs-card-cap-bg);
+    border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+.card-footer:last-child {
+    border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
+}
+.card-group > .card:not(:last-child) .card-footer,
+    .card-group > .card:not(:last-child) .card-img-bottom {
+        border-bottom-right-radius: 0;
+    }
+    .card-group > .card:not(:first-child) .card-footer,
+    .card-group > .card:not(:first-child) .card-img-bottom {
+        border-bottom-left-radius: 0;
+    }
+    .modal{
+        --bs-modal-footer-gap: 0.5rem;
+
+    }
+    .modal-footer {
+        display: flex;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * 0.5);
+        background-color: var(--bs-modal-footer-bg);
+        border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
+        border-bottom-right-radius: var(--bs-modal-inner-border-radius);
+        border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+    }
+    .modal-footer > * {
+        margin: calc(var(--bs-modal-footer-gap) * 0.5);
+    }
